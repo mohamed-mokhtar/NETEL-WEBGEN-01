@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- TITLE -->
+    <title>NETEL PAGE T01</title>
+    <!-- CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="nav-bar">
+        <span class="navbar-logo">NETEL LOGO</span>
+        <a href="#HOME">HOME</a>
+        <a href="#ABOUT">ABOUT US</a>
+        <a href="#PORTFOLIO">PORTFOLIO</a>
+        <a href="#CONTACT">CONTACT</a>
+    </div>
+    <!-- MAIN -->
+    <div class="main">
+        <!-- BACKGROUND -->
+        <div class="bg-section">
+            <div class="bg-text">Welcome</div>
+            <div class="bg-text">to Onetel Design Studio</div>
+        </div>
+        <!-- CARDS -->
+        <div class="cards-section">
+            <div class="card" id="card-1">
+                <div class="card-text">
+                    <h2>Responsive</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.</p>
+                </div>
+            </div>
+            <div class="card" id="card-2">
+                <div class="card-text">
+                    <h2>Easy to use</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.</p>
+                </div>
+            </div>
+            <div class="card" id="card-3">
+                <div class="card-text">
+                    <h2>Quick support</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.</p>
+                </div>
+            </div>
+        </div>
+        <!-- STARTUP-SECTION -->
+        <div class="startup-section">
+            <img src="images/backgorund.jpg" width="540px" class="startup-img">
+            <div class="startup-text">
+                <h2>Startup Business</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.</p>
+
+                <button class="btn-lm">Learn More!</button>
+            </div>
+        </div>
+        <!-- RECENT-SECTION -->
+        <div class="recent-section">
+            <div class="recent-title">Recent Projects</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue libero, pretium a bibendum at.Lorem ipsum dolor sit amet,Mauris augue libero, pretium a bibendum at.</p>
+            <div class="images-section">
+                <div class="img-row-1">
+                    <img src="images/01.jpg" onclick="openLightBox('01')">
+                    <img src="images/02.jpg" onclick="openLightBox('02')">
+                    <img src="images/03.jpg" onclick="openLightBox('03')">
+                </div>
+                <div class="img-row-2">
+                    <img src="images/01.jpg" onclick="openLightBox('01')">
+                    <img src="images/02.jpg" onclick="openLightBox('02')">
+                    <img src="images/03.jpg" onclick="openLightBox('03')">
+                    <img src="images/bg.jpg" onclick="openLightBox('bg')">
+                </div>
+            </div>
+            <button class="btn-lm">View More!</button>
+        </div>
+    </div>
+    <div id="shownImg" class="image-selected">
+        <span class="close cursor" onclick="closeLightBox()">&times;</span>
+        <div class="image-content" >
+            <img src="images/01.jpg" id="img-lightbox-id">
+        </div>
+    </div>
+        <!-- JS -->
+        <script src="js/index.js"></script>
+</body>
+
+
+</html>
